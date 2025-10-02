@@ -1,5 +1,5 @@
 # Research data supporting "Signatures of paracrystallinity in amorphous silicon"
-This dataset reports the following study: https://arxiv.org/abs/2407.16681 
+This dataset reports the following study: https://www.nature.com/articles/s41467-025-57406-4
 
 
 ## Dataset ranging from disorder to order
@@ -25,10 +25,17 @@ We analyze four structural models (denoted **I** through **IV**) of 1,000 atoms 
 We also compare prototypical structures from each category: thse indices are `2491` for CRN, `2576` for Paracrystalline and `2604` for Polycrystalline. 
 
 ## Large-scale structures
-We also provide larger structural models of 100,000 atoms, namely a paracrystalline and a polycrystalline structure generated with quench rates of $10^{11}$ and $10^{10}$ K/s respectively. 
+We also provide larger structural models of 100,000 atoms, namely a paracrystalline and a polycrystalline structure generated with quench rates of $10^{11}$ (top) and $10^{10}$ K/s (bottom) respectively. 
+
+![](./images/100k-para.png)
+![](./images/100k-poly.png)
+
 
 ## Structure generation
-All structures were generated following the protocol described in the manuscript. These simulations were carried out in [LAMMPS](https://www.lammps.org/) using the $M_{16}^{''}$ [ML potential](https://doi.org/10.1063/5.0099929). Only the ultimate frame from each trajectory was added to the database.
+All structures were generated following the protocol described in the manuscript. These simulations were carried out in [LAMMPS](https://www.lammps.org/) using the $M_{16}^{''}$ [ML potential](https://doi.org/10.1063/5.0099929). Only the ultimate frame from each trajectory was added to the database, as shown below:
+
+![](./images/protocol-v1.png)
+
 
 ## Data analysis
-We will provide our scripts for the analysis and plotting of all figures in the manuscript in the [scripts](./scripts) and [src](./src) folders upon journal publication.
+Scripts for the analysis and plotting of all figures in the manuscript are provided in the [scripts](./scripts) and [src](./src) folders.
