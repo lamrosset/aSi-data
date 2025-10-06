@@ -1,5 +1,5 @@
 # Research data supporting "Signatures of paracrystallinity in amorphous silicon"
-This dataset reports the following study: https://www.nature.com/articles/s41467-025-57406-4
+This dataset supports the following study: https://www.nature.com/articles/s41467-025-57406-4
 
 
 ## Dataset ranging from disorder to order
