@@ -1,6 +1,7 @@
 # Research data supporting "Signatures of paracrystallinity in amorphous silicon"
-This dataset supports the following study: https://www.nature.com/articles/s41467-025-57406-4
+This repository supports the following work:
 
+>  Louise A.M. Rosset, David A. Drabold  and Volker L. Deringer, **Nat. Commun.**, 2025, *16*, 2360
 
 ## Dataset ranging from disorder to order
 The dataset contains 3,069 a-Si structures, for a total of approximately 1.3 million atomic environments. These structures range from highly disordered to more crystalline-like. It is separated into `.xyz` files for each cell structure size.
